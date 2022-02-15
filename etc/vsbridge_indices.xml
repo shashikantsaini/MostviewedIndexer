@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Divante_VsbridgeIndexerCore:etc/vsbridge_indices.xsd">
+    <index identifier="vue_storefront_catalog">
+        <type name="amasty_related_product" mapping="Bluethink\MostviewedIndexer\Index\Mapping\AmastyRelatedProduct" />
+        <type name="amasty_related_category" mapping="Bluethink\MostviewedIndexer\Index\Mapping\AmastyRelatedCategory" />
+    </index>
+</indices>

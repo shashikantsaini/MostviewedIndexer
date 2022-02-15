@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Mview/etc/mview.xsd">
+    <view id="vsbridge_amasty_mostviewed_product_indexer" class="Bluethink\MostviewedIndexer\Model\Indexer\AmastyRelatedProduct" group="indexer">
+        <subscriptions>
+            <table name="catalog_product_entity" entity_column="entity_id" />
+        </subscriptions>
+    </view>
+    <view id="vsbridge_amasty_mostviewed_category_indexer" class="Bluethink\MostviewedIndexer\Model\Indexer\AmastyRelatedCategory" group="indexer">
+        <subscriptions>
+            <table name="catalog_category_entity" entity_column="entity_id" />
+        </subscriptions>
+    </view>
+</config>
